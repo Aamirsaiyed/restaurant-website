@@ -1,0 +1,64 @@
+import React from 'react'
+import Animated from '../Components/Animated'
+import { testimonials } from '../Data/Data'
+import { StarIcon } from 'lucide-react'
+
+const Testimonial = () => {
+    return (
+        <section id="testimonials" className="px-auto mt-20 md:mt-32">
+            {/* Section Heading */}
+            <div className="text-center mb-16">
+
+                <Animated delay={0.2}>
+                    <span className="text-orange-500 font-medium uppercase tracking-widest mb-4 inline-block">
+                        LOVED BY FOOD LOVERS
+                    </span>
+                </Animated>
+
+                <Animated delay={0.2}>
+                    <h2 className="text-4xl md:text-5xl font-medium font-urbanist text-balance max-w-lg mx-auto">
+                        What Ours Guest Say
+                    </h2>
+                </Animated>
+            </div>
+
+            {/* Testimonial Grid */}
+
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto'>
+                {testimonials.map((item, index) => {
+                    return (
+                        <Animated key={index} y={80} delay={index * 0.1}
+                            className="border border-slate-200 hover:bg-slate-50/50 rounded-2xl p-6 flex flex-col justify-between text-left">
+                            <div>
+                                <div className='flex gap-0.5 mb-6 '>
+                                    {
+                                        [...Array(item.rating)].map((_, i) => (
+                                            <StarIcon key={i} className='size-4 fill-orange-500 text-orange-500' />
+                                        ))
+                                    }
+                                </div>
+                                <p className='text-zinc-600 leading-relaxed mb-6'>
+                                    "{item.review}"
+                                </p>
+                            </div>
+
+                            <div className='flex items-center gap-3 mt-auto'>
+                                <img src={item.avatar} alt={item.name} className='size-11 rounded-full object-cover shrink-0' />
+                                <div>
+                                    <p className='font-medium leading-tight mb-0.5'>{item.name}</p>
+                                    <p className='text-zinc-600'>{item.location}</p>
+                                </div>
+                            </div>
+
+                        </Animated>
+                    )
+                })}
+
+            </div>
+
+
+        </section>
+    )
+}
+
+export default Testimonial
