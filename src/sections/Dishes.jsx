@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 import Animated from '../Components/Animated'
-import { dishes } from '../Data/Data'
+import { dishes } from '../data/data'
 import { motion } from 'motion/react'
 
 const Dishes = () => {

@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 import Animated from '../Components/Animated'
-import { faqs } from '../Data/Data'
+import { faqs } from '../data/data'
 import { Plus, X } from 'lucide-react'
 
 const FAQ = () => {

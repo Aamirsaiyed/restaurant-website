@@ -1,6 +1,6 @@
 import React from 'react'
 import Animated from './Animated'
-import { quickLinks, sitemapLinks, socialLinks } from '../Data/Data'
+import { quickLinks, sitemapLinks, socialLinks } from '../data/data'
 import { Mail, Phone } from 'lucide-react'
 
 const Footer = () => {

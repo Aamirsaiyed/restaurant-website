@@ -1,5 +1,5 @@
 import React from 'react'
-import { statsData } from '../Data/Data'
+import { statsData } from '../data/data'
 import Animated from '../Components/Animated'
 
 const Stats = () => {

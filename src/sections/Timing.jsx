@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Animated from '../Components/Animated'
-import { timingData } from '../Data/Data'
+import { timingData } from '../data/data'
 
 const Timing = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { bookingSteps, bookingTestimonial } from '../Data/Data'
+import { bookingSteps, bookingTestimonial } from '../data/data'
 import { Star } from 'lucide-react'
 import Animated from '../Components/Animated'
 import { steps } from 'motion'

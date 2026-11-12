@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { navLinks } from '../Data/Data'
+import { navLinks } from '../data/data'
 
 
 const Navbar = () => {

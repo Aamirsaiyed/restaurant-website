@@ -1,6 +1,6 @@
 import React from 'react'
 import Animated from '../Components/Animated'
-import { testimonials } from '../Data/Data'
+import { testimonials } from '../data/data'
 import { StarIcon } from 'lucide-react'
 
 const Testimonial = () => {

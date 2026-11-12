@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Animated from '../Components/Animated'
-import { featuresData } from '../Data/Data'
+import { featuresData } from '../data/data'
 import { ChefHat, Heart, Leaf } from 'lucide-react'
 
 const iconMap = {
