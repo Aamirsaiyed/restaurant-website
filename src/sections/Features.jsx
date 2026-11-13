@@ -16,7 +16,7 @@ const Features = () => {
         <section id="features" className="px-6 md:px-12 lg:px-24 mt-20 md:mt-32 overflow-x-hidden">
 
             {/* Section Heading */}
-            <div className="text-center mb-16"
+            <div className="text-center mb-16">
 
                 <Animated delay={0.2}>
                     <span className="text-orange-500 font-medium uppercase tracking-widest mb-3.5 inline-block">
