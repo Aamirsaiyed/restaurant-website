@@ -13,7 +13,7 @@ const iconMap = {
 const Features = () => {
 
     return (
-        <section id="features" className="px-6 md:px-12 lg:px-24 mt-20 md:mt-32 overflowx-x-hidden">
+        <section id="features" className="px-6 md:px-12 lg:px-24 mt-20 md:mt-32 overflow-x-hidden">
 
             {/* Section Heading */}
             <div className="text-center mb-16"
